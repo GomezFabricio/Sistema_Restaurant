@@ -1,0 +1,125 @@
+/* Estilos para login.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    /* Fondo claro para la página */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    /* Altura completa */
+}
+
+.image-section {
+    width: 50%;
+    background: url('ruta_de_tu_imagen') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-section {
+    width: 50%;
+    background-color: #ffffff;
+    /* Fondo blanco para el área de login */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    /* Más espacio alrededor del contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para el contenedor */
+    position: relative;
+    /* Necesario para el posicionamiento absoluto del alert */
+}
+
+.welcome-text {
+    color: #333;
+    /* Texto oscuro */
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* Tamaño de fuente más grande */
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 5px;
+    /* Espacio adicional entre los grupos de formularios */
+}
+
+.form-group label {
+    color: #666;
+    /* Color de etiqueta más suave */
+    font-size: 14px;
+    /* Tamaño de fuente más pequeño */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    /* Espacio adicional debajo de los inputs */
+    border-radius: 5px;
+    /* Bordes ligeramente redondeados */
+    border: 1px solid #ccc;
+    /* Borde claro */
+    font-size: 14px;
+    /* Tamaño de fuente estándar */
+}
+
+.btn {
+    width: 109%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    color: white;
+    /* Texto blanco */
+    cursor: pointer;
+    /* Cambiar cursor al pasar por el botón */
+    font-size: 16px;
+    /* Tamaño de fuente más grande */
+    transition: background-color 0.3s ease;
+    /* Transición suave */
+}
+
+.btn-primary {
+    background-color: #333;
+    /* Color oscuro para el botón primario */
+}
+
+.btn-primary:hover {
+    background-color: #555;
+    /* Color más claro al pasar el mouse */
+}
+
+.btn-secondary {
+    background-color: #555;
+    /* Color oscuro para el botón secundario */
+}
+
+.btn-secondary:hover {
+    background-color: #777;
+    /* Color más claro al pasar el mouse */
+}
+
+.alert {
+    width: 100%;
+    margin-bottom: 20px;
+    /* Ajusta el ancho según sea necesario */
+    padding: 10px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    z-index: 10;
+    /* Asegura que el alert esté por encima de otros elementos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para el alert */
+}
